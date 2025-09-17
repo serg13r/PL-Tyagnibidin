@@ -2,8 +2,8 @@ print('№1 ','Курс Основы программирования начал
 
 print('№2 ', 16823 * 12302 / 3092 % 1)
 
-age = 18 # int(input())
-name = 'Не Иван' # input()
+age = int(input())
+name = input()
 if 75 > age > 0:
     if name != 'Иван':
         if age >= 16:
