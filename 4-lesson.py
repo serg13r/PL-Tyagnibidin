@@ -87,4 +87,5 @@ for _ in range(N):
     sum_fibonacci += a
     a, b = b, a + b
 
+
 print("Сумма", N, "чисел ряда Фибоначчи, начиная с", K, ":", sum_fibonacci)
