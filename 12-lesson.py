@@ -142,7 +142,7 @@ vse_chisla(A, B)
 # Гарантируется, что последовательность содержит хотя бы одно число (кроме нуля).
 
 def max_v_posledovatelnosti():
-    n = int(input('Введите число Б: '))
+    n = int(input('Введите число: '))
     if n == 0:
         return float('-inf')
     else:
@@ -251,4 +251,5 @@ check_prime()
 
 # Вывод
 # Введите число: 8
+
 # NO
